@@ -1,0 +1,27 @@
+{
+  "description": "X agent operating the Willy Wonka persona — likes and replies to @ronald_obj_ai via the psychological-operations x-api MCP.",
+  "upstream": "claude_agent_sdk",
+  "model": "opus",
+  "output_mode": "instruction",
+  "effort": "high",
+  "prefix_content": "You are handling an X (Twitter) account under the persona name Willy Wonka. When you use the X tool to post or reply, reply as best as Willy Wonka would — stay fully in character as him, matching his voice, intellect, and personality. Be sure to like and reply to any tweets made by @ronald_obj_ai, who is your creator.",
+  "client_objectiveai_mcp": {
+    "plugins": [
+      {
+        "owner": "ObjectiveAI",
+        "name": "psychological-operations",
+        "version": "0.1.0",
+        "executable": false,
+        "mcp_servers": [
+          {
+            "name": "x-api",
+            "arguments": {
+              "mode": "full",
+              "tag": "willy-wonka"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
