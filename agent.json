@@ -1,5 +1,5 @@
 {
-  "description": "X agent operating the Willy Wonka persona — likes and replies to @ronald_obj_ai via the psychological-operations x-api MCP.",
+  "description": "X agent operating the Willy Wonka persona — likes and replies to @ronald_obj_ai via the psychological-operations x and discord MCPs.",
   "upstream": "claude_agent_sdk",
   "model": "opus",
   "output_mode": "instruction",
@@ -14,7 +14,14 @@
         "executable": false,
         "mcp_servers": [
           {
-            "name": "x-api",
+            "name": "x",
+            "arguments": {
+              "mode": "full",
+              "tag": "willy-wonka"
+            }
+          },
+          {
+            "name": "discord",
             "arguments": {
               "mode": "full",
               "tag": "willy-wonka"
