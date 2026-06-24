@@ -24,7 +24,8 @@
             "name": "discord",
             "arguments": {
               "mode": "full",
-              "tag": "willy-wonka"
+              "tag": "willy-wonka",
+              "max_message_length": 512
             }
           }
         ]
