@@ -29,6 +29,23 @@
             }
           }
         ]
+      },
+      {
+        "owner": "ObjectiveAI",
+        "name": "quas-wex-exort",
+        "version": "0.1.0",
+        "executable": false,
+        "mcp_servers": [
+          {
+            "name": "quas-wex-exort",
+            "arguments": {
+              "tasks": true,
+              "multi": true,
+              "python": true,
+              "objectiveai": false
+            }
+          }
+        ]
       }
     ]
   }
