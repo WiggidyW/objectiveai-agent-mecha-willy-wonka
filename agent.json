@@ -25,7 +25,7 @@
             "arguments": {
               "mode": "full",
               "tag": "willy-wonka",
-              "max_message_length": 512
+              "max_message_length": "512"
             }
           }
         ]
@@ -39,10 +39,10 @@
           {
             "name": "quas-wex-exort",
             "arguments": {
-              "tasks": true,
-              "multi": true,
-              "python": true,
-              "objectiveai": false
+              "tasks": "true",
+              "multi": "true",
+              "python": "true",
+              "objectiveai": "false"
             }
           }
         ]
